@@ -24,7 +24,7 @@ npm start
 
 The application will run at `http://localhost:4200`.
 
-## 🛠️ Technologies
+## Technologies
 
 - **Angular 17**: Standalone components
 - **Tailwind CSS**: Utility-first CSS framework
