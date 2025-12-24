@@ -1,10 +1,9 @@
-# ecommorce-angular-public
 
 # E-Commerce Angular App
 
 A modern and responsive e-commerce application built with Angular 17.
 
-## ✨ Features
+## Features
 
 - **Shopping Cart**: LocalStorage-based cart system
 - **Authentication**: User registration and login (LocalStorage)
@@ -15,7 +14,7 @@ A modern and responsive e-commerce application built with Angular 17.
 - **Notifications**: User notifications with SweetAlert2
 - **SSR Support**: Server-side rendering with Angular Universal
 
-## 🚀 Installation
+## Installation
 
 ```bash
 cd my-app
@@ -34,7 +33,7 @@ The application will run at `http://localhost:4200`.
 - **RxJS**: Reactive programming
 - **Angular Signals**: State management
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 src/app/
@@ -49,7 +48,7 @@ src/app/
 └── shared/           # Shared components
 ```
 
-## 📝 Notes
+## Notes
 
 - Works without a backend (uses JSON files)
 - User data is stored in LocalStorage
