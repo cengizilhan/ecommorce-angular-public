@@ -1,0 +1,76 @@
+<div class="container mx-auto px-4 py-8" *ngIf="product$ | async as product; else loading">
+  <div class="mb-6">
+    <a routerLink="/products" class="text-blue-500 hover:text-blue-700 flex items-center gap-2 transition-colors">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+      </svg>
+      {{ 'PRODUCT_DETAIL.BACK_TO_PRODUCTS' | translate }}
+    </a>
+  </div>
+
+  <div class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 p-6 md:p-8 lg:p-12">
+      <!-- Image Section -->
+      <div class="relative group">
+        <div class="aspect-square rounded-2xl overflow-hidden bg-gray-50 border border-gray-100">
+          <img 
+            [src]="product.images[0]" 
+            [alt]="getTitle(product)" 
+            class="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-500"
+          >
+        </div>
+        <div class="absolute top-4 right-4" *ngIf="product.isFreeCargo">
+          <span class="bg-green-500 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">
+            {{ 'COMMON.FREE_SHIPPING' | translate }}
+          </span>
+        </div>
+      </div>
+
+      <!-- Info Section -->
+      <div class="flex flex-col justify-center">
+        <div class="mb-2">
+            <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full">
+                {{ product.brand }}
+            </span>
+        </div>
+        
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
+          {{ getTitle(product) }}
+        </h1>
+
+        <div class="flex items-center gap-4 mb-6">
+          <div class="text-3xl font-bold text-blue-600">
+            {{ product.price | currency }}
+          </div>
+          <div *ngIf="product.quantity > 0" class="flex items-center text-green-600 bg-green-50 px-3 py-1 rounded-lg">
+            <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+            <span class="text-sm font-medium">{{ 'PRODUCT_DETAIL.IN_STOCK' | translate }}</span>
+          </div>
+        </div>
+
+        <p class="text-gray-600 text-lg leading-relaxed mb-8 border-b border-gray-100 pb-8">
+          {{ getDescription(product) }}
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <button (click)="addToCart(product)" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl transition-all shadow-lg hover:shadow-blue-500/30 flex items-center justify-center gap-2 group">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+            {{ 'COMMON.ADD_TO_CART' | translate }}
+          </button>
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <div class="min-h-[60vh] flex items-center justify-center">
+    <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+  </div>
+</ng-template>

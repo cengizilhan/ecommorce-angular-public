@@ -1,0 +1,79 @@
+{
+  "HEADER": {
+    "HOME": "Anasayfa",
+    "PRODUCTS": "Ürünler",
+    "CATEGORIES": "Kategoriler",
+    "ABOUT": "Hakkımızda",
+    "SIGN_IN": "Giriş Yap",
+    "SIGN_OUT": "Çıkış Yap",
+    "LOADING": "Yükleniyor...",
+    "SEARCH_PLACEHOLDER": "Arama..."
+  },
+  "COMMON": {
+    "ADD_TO_CART": "Sepete Ekle",
+    "VIEW_DETAILS": "Detayları Gör",
+    "PRICE": "Fiyat",
+    "FREE_SHIPPING": "Ücretsiz Kargo"
+  },
+  "FOOTER": {
+    "QUICK_LINKS": "Hızlı Erişim",
+    "CONTACT": "İletişim",
+    "RIGHTS_RESERVED": "Tüm hakları saklıdır",
+    "DESCRIPTION": "Kaliteli ürünler için premium adresiniz.",
+    "FOLLOW_US": "Bizi Takip Edin"
+  },
+  "PRODUCTS_PAGE": {
+    "TITLE": "Ürünleri Keşfet",
+    "SUBTITLE": "Yaşam tarzınızı yükseltmek için tasarlanmış seçkin ürün koleksiyonumuzu keşfedin."
+  },
+  "AUTH": {
+    "LOGIN_TITLE": "Hesabınıza giriş yapın",
+    "LOGIN_BUTTON": "Giriş Yap",
+    "REGISTER_TITLE": "Hesap oluşturun",
+    "REGISTER_BUTTON": "Kayıt Ol",
+    "OR": "Veya",
+    "CREATE_ACCOUNT": "yeni hesap oluşturun",
+    "ALREADY_HAVE_ACCOUNT": "Zaten hesabınız var mı?",
+    "EMAIL_LABEL": "E-posta adresi",
+    "EMAIL_PLACEHOLDER": "E-posta adresi",
+    "PASSWORD_LABEL": "Şifre",
+    "PASSWORD_PLACEHOLDER": "Şifre",
+    "PASSWORD_MIN_PLACEHOLDER": "Şifre (en az 6 karakter)",
+    "NAME_LABEL": "Ad Soyad",
+    "NAME_PLACEHOLDER": "Ad Soyad",
+    "INVALID_CREDENTIALS": "Geçersiz e-posta veya şifre.",
+    "EMAIL_EXISTS": "E-posta zaten kayıtlı."
+  },
+  "CART": {
+    "TITLE": "Alışveriş Sepeti",
+    "EMPTY_MESSAGE": "Sepetiniz boş",
+    "START_SHOPPING": "Alışverişe Başla",
+    "QTY": "Adet:",
+    "REMOVE": "Kaldır",
+    "EACH": "adet",
+    "ORDER_SUMMARY": "Sipariş Özeti",
+    "SUBTOTAL": "Ara Toplam",
+    "ITEMS": "ürün",
+    "SHIPPING": "Kargo",
+    "FREE": "Ücretsiz",
+    "TOTAL": "Toplam",
+    "CHECKOUT": "Ödeme Yap"
+  },
+  "PRODUCT_DETAIL": {
+    "BACK_TO_PRODUCTS": "Ürünlere Dön",
+    "IN_STOCK": "Stokta Var"
+  },
+  "HOME": {
+    "HERO_TITLE": "Harika Ürünleri Keşfedin",
+    "HERO_SUBTITLE": "En son trendleri alışveriş edin ve ihtiyacınız olan her şeyi tek yerde bulun. Kaliteli ürünler, rakipsiz fiyatlar.",
+    "SHOP_NOW": "Şimdi Alışveriş Yap",
+    "EXPLORE_CATEGORIES": "Kategorileri Keşfet",
+    "FEATURED_PRODUCTS": "Öne Çıkan Ürünler",
+    "FEATURED_SUBTITLE": "Sizin için özenle seçilmiş en iyi ürünlerimiz",
+    "VIEW_ALL_PRODUCTS": "Tüm Ürünleri Gör"
+  },
+  "NOTIFICATIONS": {
+    "CART_SUCCESS_TITLE": "Başarılı!",
+    "CART_SUCCESS_MESSAGE": "{{productName}} sepetinize eklendi."
+  }
+}

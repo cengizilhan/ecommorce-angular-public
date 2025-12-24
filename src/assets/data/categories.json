@@ -1,0 +1,101 @@
+[
+  {
+    "ID": 0,
+    "CategoryName": {
+      "en": "Small Home Appliances",
+      "tr": "Küçük Ev Aletleri",
+      "es": "Pequeños Electrodomésticos"
+    },
+    "link": "products?sort=name-asc&categoryIds=0"
+  },
+  {
+    "ID": 1,
+    "CategoryName": {
+      "en": "Personal Care",
+      "tr": "Kişisel Bakım",
+      "es": "Cuidado Personal"
+    },
+    "link": "products?sort=name-asc&categoryIds=1"
+  },
+  {
+    "ID": 2,
+    "CategoryName": {
+      "en": "Garden & DIY",
+      "tr": "Bahçe & Yapı Market",
+      "es": "Jardín y Bricolaje"
+    },
+    "link": "products?sort=name-asc&categoryIds=2"
+  },
+  {
+    "ID": 3,
+    "CategoryName": {
+      "en": "White Goods & AC",
+      "tr": "Beyaz Eşya & Klima",
+      "es": "Línea Blanca y AA"
+    },
+    "link": "products?sort=name-asc&categoryIds=3"
+  },
+  {
+    "ID": 4,
+    "CategoryName": {
+      "en": "Home & Living",
+      "tr": "Ev & Yaşam",
+      "es": "Hogar y Vida"
+    },
+    "link": "products?sort=name-asc&categoryIds=4"
+  },
+  {
+    "ID": 5,
+    "CategoryName": {
+      "en": "Phones",
+      "tr": "Telefonlar",
+      "es": "Teléfonos"
+    },
+    "link": "products?sort=name-asc&categoryIds=5"
+  },
+  {
+    "ID": 6,
+    "CategoryName": {
+      "en": "Tablets",
+      "tr": "Tabletler",
+      "es": "Tabletas"
+    },
+    "link": "products?sort=name-asc&categoryIds=6"
+  },
+  {
+    "ID": 7,
+    "CategoryName": {
+      "en": "Outdoor",
+      "tr": "Outdoor",
+      "es": "Aire Libre"
+    },
+    "link": "products?sort=name-asc&categoryIds=7"
+  },
+  {
+    "ID": 8,
+    "CategoryName": {
+      "en": "Sports",
+      "tr": "Spor",
+      "es": "Deportes"
+    },
+    "link": "products?sort=name-asc&categoryIds=8"
+  },
+  {
+    "ID": 9,
+    "CategoryName": {
+      "en": "Other Categories",
+      "tr": "Diğer Kategoriler",
+      "es": "Otras Categorías"
+    },
+    "link": "products?sort=name-asc&categoryIds=9"
+  },
+  {
+    "ID": 10,
+    "CategoryName": {
+      "en": "Campaigns",
+      "tr": "Kampanyalar",
+      "es": "Campañas"
+    },
+    "link": "products?sort=name-asc&categoryIds=10"
+  }
+]

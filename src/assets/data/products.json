@@ -1,0 +1,1922 @@
+[
+  {
+    "id": 1,
+    "quantity": 1,
+    "productCode": "FRV 332",
+    "brand": "Fjallraven",
+    "title": {
+      "en": "Fjallraven Backpack",
+      "tr": "Fjallraven Tam Çanta",
+      "es": "Mochila Fjallraven"
+    },
+    "price": 109.95,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Perfect backpack for everyday use and outdoor adventures.",
+      "tr": "Günlük kullanım ve dış mekan maceraları için mükemmel sırt çantası.",
+      "es": "Mochila perfecta para uso diario y aventuras al aire libre."
+    },
+    "categoryId": 9,
+    "images": [
+      "/assets/imgs/bagg.jpg",
+      "/assets/imgs/bagg2.jpg",
+      "/assets/imgs/bagg3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "quantity": 1,
+    "productCode": "IPH 112",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 12",
+      "tr": "iPhone 12",
+      "es": "iPhone 12"
+    },
+    "price": 1300,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Experience the latest technology with the powerful iPhone 12.",
+      "tr": "Güçlü iPhone 12 ile en son teknolojiyi deneyimleyin.",
+      "es": "Experimenta la última tecnología con el potente iPhone 12."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone12-red.png",
+      "/assets/imgs/iphone-12-green-select-2020.png",
+      "/assets/imgs/iphone12pro.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "quantity": 1,
+    "productCode": "IPH 113",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 11",
+      "tr": "iPhone 11",
+      "es": "iPhone 11"
+    },
+    "price": 1250,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Reliable smartphone with excellent performance and camera.",
+      "tr": "Mükemmel performans ve kameraya sahip güvenilir akıllı telefon.",
+      "es": "Smartphone fiable con excelente rendimiento y cámara."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone11-green.png",
+      "/assets/imgs/iphone11-1.jpg",
+      "/assets/imgs/iphone11-2.png"
+    ]
+  },
+  {
+    "id": 4,
+    "quantity": 1,
+    "productCode": "IPA 112",
+    "brand": "Apple",
+    "title": {
+      "en": "iPad Air 2016",
+      "tr": "iPad Air 2016",
+      "es": "iPad Air 2016"
+    },
+    "price": 1499,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Lightweight tablet ideal for work and entertainment.",
+      "tr": "İş ve eğlence için ideal hafif tablet.",
+      "es": "Tableta ligera ideal para el trabajo y el entretenimiento."
+    },
+    "categoryId": 6,
+    "images": [
+      "/assets/imgs/ipad.png",
+      "/assets/imgs/ipad11.jpg",
+      "/assets/imgs/ipad122.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "quantity": 1,
+    "productCode": "NK 332",
+    "brand": "Nike",
+    "title": {
+      "en": "Nike Shoes",
+      "tr": "Nike Ayakkabı",
+      "es": "Zapatos Nike"
+    },
+    "price": 650,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Comfortable and stylish shoes for everyday wear.",
+      "tr": "Günlük kullanım için rahat ve şık ayakkabılar.",
+      "es": "Zapatos cómodos y elegantes para uso diario."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/ayakkabi1.png",
+      "/assets/imgs/ayak3.png",
+      "/assets/imgs/ayak2.png"
+    ]
+  },
+  {
+    "id": 6,
+    "quantity": 1,
+    "productCode": "FKR 112",
+    "brand": "Fakir",
+    "title": {
+      "en": "Fakir Iron",
+      "tr": "Fakir Ütü",
+      "es": "Plancha Fakir"
+    },
+    "price": 701,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Efficient iron for quick and easy garment care.",
+      "tr": "Hızlı ve kolay giysi bakımı için verimli ütü.",
+      "es": "Plancha eficiente para el cuidado rápido y fácil de las prendas."
+    },
+    "categoryId": 0,
+    "images": [
+      "/assets/imgs/utuf.png",
+      "/assets/imgs/utu.png",
+      "/assets/imgs/utu3.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "quantity": 1,
+    "productCode": "LNS 332",
+    "brand": "Lonsdale",
+    "title": {
+      "en": "Punching Bag",
+      "tr": "Kum Torbası",
+      "es": "Saco de Boxeo"
+    },
+    "price": 864,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Durable punching bag for your fitness and training needs.",
+      "tr": "Fitness ve antrenman ihtiyaçlarınız için dayanıklı kum torbası.",
+      "es": "Saco de boxeo duradero para tus necesidades de fitness y entrenamiento."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/punch.png",
+      "/assets/imgs/kumtorbasi2.jpg",
+      "/assets/imgs/kumtorbasi3.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "quantity": 1,
+    "productCode": "DE 662",
+    "brand": "Decathlon",
+    "title": {
+      "en": "Tent",
+      "tr": "Çadır",
+      "es": "Tienda de Campaña"
+    },
+    "price": 2500,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Spacious tent perfect for camping and outdoor trips.",
+      "tr": "Kamp ve doğa gezileri için mükemmel geniş çadır.",
+      "es": "Tienda espaciosa perfecta para acampar y viajes al aire libre."
+    },
+    "categoryId": 7,
+    "images": [
+      "/assets/imgs/cadir.png",
+      "/assets/imgs/cadir2.jpg",
+      "/assets/imgs/cadir3.jpeg"
+    ]
+  },
+  {
+    "id": 9,
+    "quantity": 1,
+    "productCode": "MD 332",
+    "brand": "Ikea",
+    "title": {
+      "en": "Table",
+      "tr": "Masa",
+      "es": "Mesa"
+    },
+    "price": 1320,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Modern and sturdy table suitable for home or office.",
+      "tr": "Ev veya ofis için uygun modern ve sağlam masa.",
+      "es": "Mesa moderna y resistente adecuada para hogar u oficina."
+    },
+    "categoryId": 4,
+    "images": [
+      "/assets/imgs/masa.png",
+      "/assets/imgs/masa2.jpg",
+      "/assets/imgs/masa3.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "quantity": 1,
+    "productCode": "BUZ 943",
+    "brand": "Bosch",
+    "title": {
+      "en": "Refrigerator",
+      "tr": "Buzdolabı",
+      "es": "Refrigerador"
+    },
+    "price": 1320,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Energy efficient refrigerator with spacious compartments.",
+      "tr": "Geniş bölmelere sahip enerji tasarruflu buzdolabı.",
+      "es": "Refrigerador energéticamente eficiente con compartimentos espaciosos."
+    },
+    "categoryId": 3,
+    "images": [
+      "/assets/imgs/buzdolabi.png",
+      "/assets/imgs/buzdolabi2.jpg",
+      "/assets/imgs/buzdolabi3.png"
+    ]
+  },
+  {
+    "id": 11,
+    "quantity": 1,
+    "productCode": "MATK 645",
+    "brand": "Okh",
+    "title": {
+      "en": "Drill Machine",
+      "tr": "Matkap",
+      "es": "Taladro"
+    },
+    "price": 2300,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Powerful drill for all your construction and DIY projects.",
+      "tr": "Tüm inşaat ve kendin yap projeleriniz için güçlü matkap.",
+      "es": "Taladro potente para todos tus proyectos de construcción y bricolaje."
+    },
+    "categoryId": 2,
+    "images": [
+      "/assets/imgs/matkap.png",
+      "/assets/imgs/matkap2.jpg",
+      "/assets/imgs/matkap3.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "quantity": 1,
+    "productCode": "PAR 132",
+    "brand": "Boss",
+    "title": {
+      "en": "Perfume",
+      "tr": "Parfüm",
+      "es": "Perfume"
+    },
+    "price": 2300,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Elegant fragrance to leave a lasting impression.",
+      "tr": "Kalıcı bir izlenim bırakmak için zarif koku.",
+      "es": "Fragancia elegante para dejar una impresión duradera."
+    },
+    "categoryId": 1,
+    "images": [
+      "/assets/imgs/parfum.png",
+      "/assets/imgs/parfum2.jpg",
+      "/assets/imgs/parfum3.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "quantity": 1,
+    "productCode": "PAR 133",
+    "brand": "Boss",
+    "title": {
+      "en": "Perfume Black Edition",
+      "tr": "Parfüm Siyah Seri",
+      "es": "Perfume Edición Negra"
+    },
+    "price": 2450,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Sophisticated scent for the modern gentleman.",
+      "tr": "Modern beyefendi için sofistike koku.",
+      "es": "Aroma sofisticado para el caballero moderno."
+    },
+    "categoryId": 10,
+    "images": [
+      "/assets/imgs/parfum.png",
+      "/assets/imgs/parfum2.jpg",
+      "/assets/imgs/parfum3.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "quantity": 1,
+    "productCode": "MATK 646",
+    "brand": "Okh",
+    "title": {
+      "en": "Drill Machine Pro",
+      "tr": "Matkap Pro",
+      "es": "Taladro Pro"
+    },
+    "price": 2500,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Professional grade drill with enhanced torque and precision.",
+      "tr": "Geliştirilmiş tork ve hassasiyete sahip profesyonel sınıf matkap.",
+      "es": "Taladro de grado profesional con par y precisión mejorados."
+    },
+    "categoryId": 10,
+    "images": [
+      "/assets/imgs/matkap.png",
+      "/assets/imgs/matkap2.jpg",
+      "/assets/imgs/matkap3.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "quantity": 1,
+    "productCode": "FRV 333",
+    "brand": "Fjallraven",
+    "title": {
+      "en": "Fjallraven Backpack Classic",
+      "tr": "Fjallraven Klasik Çanta",
+      "es": "Mochila Clásica Fjallraven"
+    },
+    "price": 129.95,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Classic design with modern durability for all adventures.",
+      "tr": "Tüm maceralar için modern dayanıklılığa sahip klasik tasarım.",
+      "es": "Diseño clásico con durabilidad moderna para todas las aventuras."
+    },
+    "categoryId": 9,
+    "images": [
+      "/assets/imgs/bagg.jpg",
+      "/assets/imgs/bagg2.jpg",
+      "/assets/imgs/bagg3.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "quantity": 1,
+    "productCode": "IPH 114",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 13",
+      "tr": "iPhone 13",
+      "es": "iPhone 13"
+    },
+    "price": 1400,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Advanced camera system and A15 Bionic chip.",
+      "tr": "Gelişmiş kamera sistemi ve A15 Bionic çip.",
+      "es": "Sistema de cámara avanzado y chip A15 Bionic."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone12-red.png",
+      "/assets/imgs/iphone-12-green-select-2020.png",
+      "/assets/imgs/iphone12pro.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "quantity": 1,
+    "productCode": "IPH 115",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 13 Pro",
+      "tr": "iPhone 13 Pro",
+      "es": "iPhone 13 Pro"
+    },
+    "price": 1600,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Pro camera system with ProMotion display.",
+      "tr": "ProMotion ekrana sahip Pro kamera sistemi.",
+      "es": "Sistema de cámara Pro con pantalla ProMotion."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone11-green.png",
+      "/assets/imgs/iphone11-1.jpg",
+      "/assets/imgs/iphone11-2.png"
+    ]
+  },
+  {
+    "id": 18,
+    "quantity": 1,
+    "productCode": "IPA 113",
+    "brand": "Apple",
+    "title": {
+      "en": "iPad Air 2020",
+      "tr": "iPad Air 2020",
+      "es": "iPad Air 2020"
+    },
+    "price": 1699,
+    "isFreeCargo": false,
+    "description": {
+      "en": "All-screen design with powerful A14 Bionic chip.",
+      "tr": "Güçlü A14 Bionic çip ile tam ekran tasarımı.",
+      "es": "Diseño de pantalla completa con el potente chip A14 Bionic."
+    },
+    "categoryId": 6,
+    "images": [
+      "/assets/imgs/ipad.png",
+      "/assets/imgs/ipad11.jpg",
+      "/assets/imgs/ipad122.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "quantity": 1,
+    "productCode": "NK 333",
+    "brand": "Nike",
+    "title": {
+      "en": "Nike Air Max",
+      "tr": "Nike Air Max",
+      "es": "Nike Air Max"
+    },
+    "price": 780,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Iconic air cushioning for ultimate comfort.",
+      "tr": "Üstün konfor için ikonik hava yastıklaması.",
+      "es": "Amortiguación de aire icónica para una comodidad máxima."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/ayakkabi1.png",
+      "/assets/imgs/ayak3.png",
+      "/assets/imgs/ayak2.png"
+    ]
+  },
+  {
+    "id": 20,
+    "quantity": 1,
+    "productCode": "FKR 113",
+    "brand": "Fakir",
+    "title": {
+      "en": "Fakir Steam Iron",
+      "tr": "Fakir Buharlı Ütü",
+      "es": "Plancha de Vapor Fakir"
+    },
+    "price": 850,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Steam technology for wrinkle-free clothes.",
+      "tr": "Kırışıksız giysiler için buhar teknolojisi.",
+      "es": "Tecnología de vapor para ropa sin arrugas."
+    },
+    "categoryId": 0,
+    "images": [
+      "/assets/imgs/utuf.png",
+      "/assets/imgs/utu.png",
+      "/assets/imgs/utu3.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "quantity": 1,
+    "productCode": "LNS 333",
+    "brand": "Lonsdale",
+    "title": {
+      "en": "Punching Bag Heavy Duty",
+      "tr": "Ağır Hizmet Kum Torbası",
+      "es": "Saco de Boxeo Resistente"
+    },
+    "price": 950,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Extra durable construction for intensive training.",
+      "tr": "Yoğun antrenman için ekstra dayanıklı yapı.",
+      "es": "Construcción extra duradera para entrenamiento intensivo."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/punch.png",
+      "/assets/imgs/kumtorbasi2.jpg",
+      "/assets/imgs/kumtorbasi3.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "quantity": 1,
+    "productCode": "DE 663",
+    "brand": "Decathlon",
+    "title": {
+      "en": "Tent Family Size",
+      "tr": "Aile Boyu Çadır",
+      "es": "Tienda Familiar"
+    },
+    "price": 2800,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Extra spacious for family camping adventures.",
+      "tr": "Aile kamp maceraları için ekstra geniş.",
+      "es": "Extra espaciosa para aventuras de camping familiares."
+    },
+    "categoryId": 7,
+    "images": [
+      "/assets/imgs/cadir.png",
+      "/assets/imgs/cadir2.jpg",
+      "/assets/imgs/cadir3.jpeg"
+    ]
+  },
+  {
+    "id": 23,
+    "quantity": 1,
+    "productCode": "MD 333",
+    "brand": "Ikea",
+    "title": {
+      "en": "Desk Table",
+      "tr": "Çalışma Masası",
+      "es": "Escritorio"
+    },
+    "price": 1150,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Ergonomic design perfect for home office setup.",
+      "tr": "Ev ofis kurulumu için mükemmel ergonomik tasarım.",
+      "es": "Diseño ergonómico perfecto para la configuración de la oficina en casa."
+    },
+    "categoryId": 4,
+    "images": [
+      "/assets/imgs/masa.png",
+      "/assets/imgs/masa2.jpg",
+      "/assets/imgs/masa3.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "quantity": 1,
+    "productCode": "BUZ 944",
+    "brand": "Bosch",
+    "title": {
+      "en": "Refrigerator Double Door",
+      "tr": "Çift Kapılı Buzdolabı",
+      "es": "Refrigerador Doble Puerta"
+    },
+    "price": 1580,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Large capacity with separate freezer compartment.",
+      "tr": "Ayrı dondurucu bölmesi ile geniş kapasite.",
+      "es": "Gran capacidad con compartimento congelador separado."
+    },
+    "categoryId": 3,
+    "images": [
+      "/assets/imgs/buzdolabi.png",
+      "/assets/imgs/buzdolabi2.jpg",
+      "/assets/imgs/buzdolabi3.png"
+    ]
+  },
+  {
+    "id": 25,
+    "quantity": 1,
+    "productCode": "MATK 647",
+    "brand": "Okh",
+    "title": {
+      "en": "Drill Machine Compact",
+      "tr": "Kompakt Matkap",
+      "es": "Taladro Compacto"
+    },
+    "price": 1950,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Lightweight and portable for easy handling.",
+      "tr": "Kolay kullanım için hafif ve taşınabilir.",
+      "es": "Ligero y portátil para un fácil manejo."
+    },
+    "categoryId": 2,
+    "images": [
+      "/assets/imgs/matkap.png",
+      "/assets/imgs/matkap2.jpg",
+      "/assets/imgs/matkap3.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "quantity": 1,
+    "productCode": "PAR 134",
+    "brand": "Boss",
+    "title": {
+      "en": "Perfume Sport",
+      "tr": "Spor Parfüm",
+      "es": "Perfume Sport"
+    },
+    "price": 2100,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Fresh and energizing scent for active lifestyle.",
+      "tr": "Aktif yaşam tarzı için taze ve enerji verici koku.",
+      "es": "Aroma fresco y energizante para un estilo de vida activo."
+    },
+    "categoryId": 1,
+    "images": [
+      "/assets/imgs/parfum.png",
+      "/assets/imgs/parfum2.jpg",
+      "/assets/imgs/parfum3.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "quantity": 1,
+    "productCode": "FRV 334",
+    "brand": "Fjallraven",
+    "title": {
+      "en": "Fjallraven Mini Backpack",
+      "tr": "Fjallraven Mini Çanta",
+      "es": "Mochila Mini Fjallraven"
+    },
+    "price": 89.95,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Compact size perfect for daily commute.",
+      "tr": "Günlük işe gidip gelmek için mükemmel kompakt boyut.",
+      "es": "Tamaño compacto perfecto para el viaje diario."
+    },
+    "categoryId": 9,
+    "images": [
+      "/assets/imgs/bagg.jpg",
+      "/assets/imgs/bagg2.jpg",
+      "/assets/imgs/bagg3.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "quantity": 1,
+    "productCode": "IPH 116",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone SE",
+      "tr": "iPhone SE",
+      "es": "iPhone SE"
+    },
+    "price": 899,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Powerful performance in a compact design.",
+      "tr": "Kompakt tasarımda güçlü performans.",
+      "es": "Rendimiento potente en un diseño compacto."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone12-red.png",
+      "/assets/imgs/iphone-12-green-select-2020.png",
+      "/assets/imgs/iphone12pro.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "quantity": 1,
+    "productCode": "IPH 117",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 14",
+      "tr": "iPhone 14",
+      "es": "iPhone 14"
+    },
+    "price": 1550,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Latest features with improved battery life.",
+      "tr": "Geliştirilmiş pil ömrü ile en son özellikler.",
+      "es": "Últimas características con duración de batería mejorada."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone11-green.png",
+      "/assets/imgs/iphone11-1.jpg",
+      "/assets/imgs/iphone11-2.png"
+    ]
+  },
+  {
+    "id": 30,
+    "quantity": 1,
+    "productCode": "IPA 114",
+    "brand": "Apple",
+    "title": {
+      "en": "iPad Pro 11",
+      "tr": "iPad Pro 11",
+      "es": "iPad Pro 11"
+    },
+    "price": 2199,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Professional performance with M1 chip.",
+      "tr": "M1 çip ile profesyonel performans.",
+      "es": "Rendimiento profesional con chip M1."
+    },
+    "categoryId": 6,
+    "images": [
+      "/assets/imgs/ipad.png",
+      "/assets/imgs/ipad11.jpg",
+      "/assets/imgs/ipad122.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "quantity": 1,
+    "productCode": "NK 334",
+    "brand": "Nike",
+    "title": {
+      "en": "Nike Running Shoes",
+      "tr": "Nike Koşu Ayakkabısı",
+      "es": "Zapatillas de Correr Nike"
+    },
+    "price": 720,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Lightweight design for optimal running performance.",
+      "tr": "Optimum koşu performansı için hafif tasarım.",
+      "es": "Diseño ligero para un rendimiento óptimo al correr."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/ayakkabi1.png",
+      "/assets/imgs/ayak3.png",
+      "/assets/imgs/ayak2.png"
+    ]
+  },
+  {
+    "id": 32,
+    "quantity": 1,
+    "productCode": "FKR 114",
+    "brand": "Fakir",
+    "title": {
+      "en": "Fakir Cordless Iron",
+      "tr": "Fakir Kablosuz Ütü",
+      "es": "Plancha Inalámbrica Fakir"
+    },
+    "price": 920,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Freedom of movement with cordless design.",
+      "tr": "Kablosuz tasarım ile hareket özgürlüğü.",
+      "es": "Libertad de movimiento con diseño inalámbrico."
+    },
+    "categoryId": 0,
+    "images": [
+      "/assets/imgs/utuf.png",
+      "/assets/imgs/utu.png",
+      "/assets/imgs/utu3.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "quantity": 1,
+    "productCode": "LNS 334",
+    "brand": "Lonsdale",
+    "title": {
+      "en": "Boxing Gloves",
+      "tr": "Boks Eldiveni",
+      "es": "Guantes de Boxeo"
+    },
+    "price": 450,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Premium gloves for training and competition.",
+      "tr": "Antrenman ve müsabaka için birinci sınıf eldivenler.",
+      "es": "Guantes premium para entrenamiento y competición."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/punch.png",
+      "/assets/imgs/kumtorbasi2.jpg",
+      "/assets/imgs/kumtorbasi3.jpg"
+    ]
+  },
+  {
+    "id": 34,
+    "quantity": 1,
+    "productCode": "DE 664",
+    "brand": "Decathlon",
+    "title": {
+      "en": "Tent Ultralight",
+      "tr": "Ultra Hafif Çadır",
+      "es": "Tienda Ultraligera"
+    },
+    "price": 2200,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Lightweight tent for backpacking adventures.",
+      "tr": "Sırt çantalı maceralar için hafif çadır.",
+      "es": "Tienda ligera para aventuras de mochilero."
+    },
+    "categoryId": 7,
+    "images": [
+      "/assets/imgs/cadir.png",
+      "/assets/imgs/cadir2.jpg",
+      "/assets/imgs/cadir3.jpeg"
+    ]
+  },
+  {
+    "id": 35,
+    "quantity": 1,
+    "productCode": "MD 334",
+    "brand": "Ikea",
+    "title": {
+      "en": "Coffee Table",
+      "tr": "Orta Sehpa",
+      "es": "Mesa de Centro"
+    },
+    "price": 890,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Stylish centerpiece for your living room.",
+      "tr": "Oturma odanız için şık bir merkez parçası.",
+      "es": "Pieza central elegante para tu sala de estar."
+    },
+    "categoryId": 4,
+    "images": [
+      "/assets/imgs/masa.png",
+      "/assets/imgs/masa2.jpg",
+      "/assets/imgs/masa3.jpg"
+    ]
+  },
+  {
+    "id": 36,
+    "quantity": 1,
+    "productCode": "BUZ 945",
+    "brand": "Bosch",
+    "title": {
+      "en": "Mini Refrigerator",
+      "tr": "Mini Buzdolabı",
+      "es": "Mini Refrigerador"
+    },
+    "price": 950,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Compact fridge perfect for small spaces.",
+      "tr": "Küçük alanlar için mükemmel kompakt buzdolabı.",
+      "es": "Refrigerador compacto perfecto para espacios pequeños."
+    },
+    "categoryId": 3,
+    "images": [
+      "/assets/imgs/buzdolabi.png",
+      "/assets/imgs/buzdolabi2.jpg",
+      "/assets/imgs/buzdolabi3.png"
+    ]
+  },
+  {
+    "id": 37,
+    "quantity": 1,
+    "productCode": "MATK 648",
+    "brand": "Okh",
+    "title": {
+      "en": "Impact Drill",
+      "tr": "Darbeli Matkap",
+      "es": "Taladro de Impacto"
+    },
+    "price": 2650,
+    "isFreeCargo": false,
+    "description": {
+      "en": "High impact power for tough materials.",
+      "tr": "Zorlu malzemeler için yüksek darbe gücü.",
+      "es": "Alta potencia de impacto para materiales duros."
+    },
+    "categoryId": 2,
+    "images": [
+      "/assets/imgs/matkap.png",
+      "/assets/imgs/matkap2.jpg",
+      "/assets/imgs/matkap3.jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "quantity": 1,
+    "productCode": "PAR 135",
+    "brand": "Boss",
+    "title": {
+      "en": "Perfume Night",
+      "tr": "Gece Parfümü",
+      "es": "Perfume de Noche"
+    },
+    "price": 2550,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Mysterious and captivating evening fragrance.",
+      "tr": "Gizemli ve büyüleyici akşam kokusu.",
+      "es": "Fragancia de noche misteriosa y cautivadora."
+    },
+    "categoryId": 1,
+    "images": [
+      "/assets/imgs/parfum.png",
+      "/assets/imgs/parfum2.jpg",
+      "/assets/imgs/parfum3.jpg"
+    ]
+  },
+  {
+    "id": 39,
+    "quantity": 1,
+    "productCode": "FRV 335",
+    "brand": "Fjallraven",
+    "title": {
+      "en": "Fjallraven Laptop Backpack",
+      "tr": "Fjallraven Laptop Çantası",
+      "es": "Mochila para Laptop Fjallraven"
+    },
+    "price": 139.95,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Padded compartment for laptop protection.",
+      "tr": "Laptop koruması için yastıklı bölme.",
+      "es": "Compartimento acolchado para protección del portátil."
+    },
+    "categoryId": 9,
+    "images": [
+      "/assets/imgs/bagg.jpg",
+      "/assets/imgs/bagg2.jpg",
+      "/assets/imgs/bagg3.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "quantity": 1,
+    "productCode": "IPH 118",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 14 Pro Max",
+      "tr": "iPhone 14 Pro Max",
+      "es": "iPhone 14 Pro Max"
+    },
+    "price": 1899,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Largest display with advanced features.",
+      "tr": "Gelişmiş özelliklere sahip en büyük ekran.",
+      "es": "La pantalla más grande con características avanzadas."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone12-red.png",
+      "/assets/imgs/iphone-12-green-select-2020.png",
+      "/assets/imgs/iphone12pro.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "quantity": 1,
+    "productCode": "IPH 119",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone XR",
+      "tr": "iPhone XR",
+      "es": "iPhone XR"
+    },
+    "price": 1050,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Great value with excellent performance.",
+      "tr": "Mükemmel performans ile harika değer.",
+      "es": "Gran valor con excelente rendimiento."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone11-green.png",
+      "/assets/imgs/iphone11-1.jpg",
+      "/assets/imgs/iphone11-2.png"
+    ]
+  },
+  {
+    "id": 42,
+    "quantity": 1,
+    "productCode": "IPA 115",
+    "brand": "Apple",
+    "title": {
+      "en": "iPad Mini",
+      "tr": "iPad Mini",
+      "es": "iPad Mini"
+    },
+    "price": 1299,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Portable powerhouse in a compact size.",
+      "tr": "Kompakt boyutta taşınabilir güç merkezi.",
+      "es": "Potencia portátil en un tamaño compacto."
+    },
+    "categoryId": 6,
+    "images": [
+      "/assets/imgs/ipad.png",
+      "/assets/imgs/ipad11.jpg",
+      "/assets/imgs/ipad122.jpg"
+    ]
+  },
+  {
+    "id": 43,
+    "quantity": 1,
+    "productCode": "NK 335",
+    "brand": "Nike",
+    "title": {
+      "en": "Nike Training Shoes",
+      "tr": "Nike Antrenman Ayakkabısı",
+      "es": "Zapatillas de Entrenamiento Nike"
+    },
+    "price": 680,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Versatile shoes for gym and training.",
+      "tr": "Spor salonu ve antrenman için çok yönlü ayakkabılar.",
+      "es": "Zapatos versátiles para gimnasio y entrenamiento."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/ayakkabi1.png",
+      "/assets/imgs/ayak3.png",
+      "/assets/imgs/ayak2.png"
+    ]
+  },
+  {
+    "id": 44,
+    "quantity": 1,
+    "productCode": "FKR 115",
+    "brand": "Fakir",
+    "title": {
+      "en": "Fakir Travel Iron",
+      "tr": "Fakir Seyahat Ütüsü",
+      "es": "Plancha de Viaje Fakir"
+    },
+    "price": 550,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Compact and portable for travel needs.",
+      "tr": "Seyahat ihtiyaçları için kompakt ve taşınabilir.",
+      "es": "Compacto y portátil para necesidades de viaje."
+    },
+    "categoryId": 0,
+    "images": [
+      "/assets/imgs/utuf.png",
+      "/assets/imgs/utu.png",
+      "/assets/imgs/utu3.jpg"
+    ]
+  },
+  {
+    "id": 45,
+    "quantity": 1,
+    "productCode": "LNS 335",
+    "brand": "Lonsdale",
+    "title": {
+      "en": "Speed Bag",
+      "tr": "Hız Torbası",
+      "es": "Pera de Boxeo"
+    },
+    "price": 380,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Improve speed and coordination with this training bag.",
+      "tr": "Bu antrenman torbası ile hız ve koordinasyonu geliştirin.",
+      "es": "Mejora la velocidad y coordinación con este saco de entrenamiento."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/punch.png",
+      "/assets/imgs/kumtorbasi2.jpg",
+      "/assets/imgs/kumtorbasi3.jpg"
+    ]
+  },
+  {
+    "id": 46,
+    "quantity": 1,
+    "productCode": "DE 665",
+    "brand": "Decathlon",
+    "title": {
+      "en": "Pop-up Tent",
+      "tr": "Otomatik Kurulum Çadır",
+      "es": "Tienda Pop-up"
+    },
+    "price": 1850,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Quick setup tent for spontaneous camping.",
+      "tr": "Spontane kampçılık için hızlı kurulan çadır.",
+      "es": "Tienda de montaje rápido para acampadas espontáneas."
+    },
+    "categoryId": 7,
+    "images": [
+      "/assets/imgs/cadir.png",
+      "/assets/imgs/cadir2.jpg",
+      "/assets/imgs/cadir3.jpeg"
+    ]
+  },
+  {
+    "id": 47,
+    "quantity": 1,
+    "productCode": "MD 335",
+    "brand": "Ikea",
+    "title": {
+      "en": "Dining Table",
+      "tr": "Yemek Masası",
+      "es": "Mesa de Comedor"
+    },
+    "price": 1650,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Elegant table for family dinners.",
+      "tr": "Aile yemekleri için zarif masa.",
+      "es": "Mesa elegante para cenas familiares."
+    },
+    "categoryId": 4,
+    "images": [
+      "/assets/imgs/masa.png",
+      "/assets/imgs/masa2.jpg",
+      "/assets/imgs/masa3.jpg"
+    ]
+  },
+  {
+    "id": 48,
+    "quantity": 1,
+    "productCode": "BUZ 946",
+    "brand": "Bosch",
+    "title": {
+      "en": "Smart Refrigerator",
+      "tr": "Akıllı Buzdolabı",
+      "es": "Refrigerador Inteligente"
+    },
+    "price": 2200,
+    "isFreeCargo": true,
+    "description": {
+      "en": "WiFi connected with smart features.",
+      "tr": "Akıllı özelliklerle WiFi bağlantılı.",
+      "es": "Conectado a WiFi con funciones inteligentes."
+    },
+    "categoryId": 3,
+    "images": [
+      "/assets/imgs/buzdolabi.png",
+      "/assets/imgs/buzdolabi2.jpg",
+      "/assets/imgs/buzdolabi3.png"
+    ]
+  },
+  {
+    "id": 49,
+    "quantity": 1,
+    "productCode": "MATK 649",
+    "brand": "Okh",
+    "title": {
+      "en": "Cordless Drill",
+      "tr": "Akülü Matkap",
+      "es": "Taladro Inalámbrico"
+    },
+    "price": 2150,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Battery powered for maximum mobility.",
+      "tr": "Maksimum mobilite için pille çalışır.",
+      "es": "Alimentado por batería para máxima movilidad."
+    },
+    "categoryId": 2,
+    "images": [
+      "/assets/imgs/matkap.png",
+      "/assets/imgs/matkap2.jpg",
+      "/assets/imgs/matkap3.jpg"
+    ]
+  },
+  {
+    "id": 50,
+    "quantity": 1,
+    "productCode": "PAR 136",
+    "brand": "Boss",
+    "title": {
+      "en": "Perfume Intense",
+      "tr": "Yoğun Parfüm",
+      "es": "Perfume Intenso"
+    },
+    "price": 2700,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Long-lasting intense fragrance.",
+      "tr": "Uzun ömürlü yoğun koku.",
+      "es": "Fragancia intensa de larga duración."
+    },
+    "categoryId": 1,
+    "images": [
+      "/assets/imgs/parfum.png",
+      "/assets/imgs/parfum2.jpg",
+      "/assets/imgs/parfum3.jpg"
+    ]
+  },
+  {
+    "id": 51,
+    "quantity": 1,
+    "productCode": "FRV 336",
+    "brand": "Fjallraven",
+    "title": {
+      "en": "Fjallraven Travel Backpack",
+      "tr": "Fjallraven Seyahat Çantası",
+      "es": "Mochila de Viaje Fjallraven"
+    },
+    "price": 159.95,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Large capacity for extended trips.",
+      "tr": "Uzun yolculuklar için geniş kapasite.",
+      "es": "Gran capacidad para viajes prolongados."
+    },
+    "categoryId": 9,
+    "images": [
+      "/assets/imgs/bagg.jpg",
+      "/assets/imgs/bagg2.jpg",
+      "/assets/imgs/bagg3.jpg"
+    ]
+  },
+  {
+    "id": 52,
+    "quantity": 1,
+    "productCode": "IPH 120",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 15",
+      "tr": "iPhone 15",
+      "es": "iPhone 15"
+    },
+    "price": 1750,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Latest innovation with USB-C charging.",
+      "tr": "USB-C şarj özellikli en son inovasyon.",
+      "es": "Última innovación con carga USB-C."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone12-red.png",
+      "/assets/imgs/iphone-12-green-select-2020.png",
+      "/assets/imgs/iphone12pro.jpg"
+    ]
+  },
+  {
+    "id": 53,
+    "quantity": 1,
+    "productCode": "IPH 121",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 12 Mini",
+      "tr": "iPhone 12 Mini",
+      "es": "iPhone 12 Mini"
+    },
+    "price": 1150,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Powerful features in a smaller form.",
+      "tr": "Daha küçük formda güçlü özellikler.",
+      "es": "Características potentes en una forma más pequeña."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone11-green.png",
+      "/assets/imgs/iphone11-1.jpg",
+      "/assets/imgs/iphone11-2.png"
+    ]
+  },
+  {
+    "id": 54,
+    "quantity": 1,
+    "productCode": "IPA 116",
+    "brand": "Apple",
+    "title": {
+      "en": "iPad 10th Gen",
+      "tr": "iPad 10th Gen",
+      "es": "iPad 10th Gen"
+    },
+    "price": 1099,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Affordable iPad with great performance.",
+      "tr": "Mükemmel performansa sahip uygun fiyatlı iPad.",
+      "es": "iPad asequible con gran rendimiento."
+    },
+    "categoryId": 6,
+    "images": [
+      "/assets/imgs/ipad.png",
+      "/assets/imgs/ipad11.jpg",
+      "/assets/imgs/ipad122.jpg"
+    ]
+  },
+  {
+    "id": 55,
+    "quantity": 1,
+    "productCode": "NK 336",
+    "brand": "Nike",
+    "title": {
+      "en": "Nike Basketball Shoes",
+      "tr": "Nike Basketbol Ayakkabısı",
+      "es": "Zapatillas de Baloncesto Nike"
+    },
+    "price": 850,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Superior grip and support for court performance.",
+      "tr": "Kort performansı için üstün tutuş ve destek.",
+      "es": "Agarre y soporte superiores para el rendimiento en la cancha."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/ayakkabi1.png",
+      "/assets/imgs/ayak3.png",
+      "/assets/imgs/ayak2.png"
+    ]
+  },
+  {
+    "id": 56,
+    "quantity": 1,
+    "productCode": "FKR 116",
+    "brand": "Fakir",
+    "title": {
+      "en": "Fakir Professional Iron",
+      "tr": "Fakir Profesyonel Ütü",
+      "es": "Plancha Profesional Fakir"
+    },
+    "price": 1150,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Professional-grade iron for perfect results.",
+      "tr": "Mükemmel sonuçlar için profesyonel sınıf ütü.",
+      "es": "Plancha de grado profesional para resultados perfectos."
+    },
+    "categoryId": 0,
+    "images": [
+      "/assets/imgs/utuf.png",
+      "/assets/imgs/utu.png",
+      "/assets/imgs/utu3.jpg"
+    ]
+  },
+  {
+    "id": 57,
+    "quantity": 1,
+    "productCode": "LNS 336",
+    "brand": "Lonsdale",
+    "title": {
+      "en": "Heavy Bag Stand",
+      "tr": "Kum Torbası Standı",
+      "es": "Soporte para Saco de Boxeo"
+    },
+    "price": 650,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Sturdy stand for your punching bag.",
+      "tr": "Kum torbanız için sağlam stand.",
+      "es": "Soporte resistente para tu saco de boxeo."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/punch.png",
+      "/assets/imgs/kumtorbasi2.jpg",
+      "/assets/imgs/kumtorbasi3.jpg"
+    ]
+  },
+  {
+    "id": 58,
+    "quantity": 1,
+    "productCode": "DE 666",
+    "brand": "Decathlon",
+    "title": {
+      "en": "Season Tent",
+      "tr": "Sezona Çadır",
+      "es": "Tenda de temporada"
+    },
+    "price": 3200,
+    "isFreeCargo": true,
+    "description": {
+      "en": "All-weather protection for year-round camping.",
+      "tr": "Tüm yıl kamp için her hava koşuluna uygun koruma.",
+      "es": "Protección para todo clima para acampar todo el año."
+    },
+    "categoryId": 7,
+    "images": [
+      "/assets/imgs/cadir.png",
+      "/assets/imgs/cadir2.jpg",
+      "/assets/imgs/cadir3.jpeg"
+    ]
+  },
+  {
+    "id": 59,
+    "quantity": 1,
+    "productCode": "MD 336",
+    "brand": "Ikea",
+    "title": {
+      "en": "Standing Desk",
+      "tr": "Yatay Masa",
+      "es": "Mesa de pie"
+    },
+    "price": 1850,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Adjustable height for ergonomic comfort.",
+      "tr": "Ergonomik konfor için ayarlanabilir yükseklik.",
+      "es": "Altura ajustable para comodidad ergonómica."
+    },
+    "categoryId": 4,
+    "images": [
+      "/assets/imgs/masa.png",
+      "/assets/imgs/masa2.jpg",
+      "/assets/imgs/masa3.jpg"
+    ]
+  },
+  {
+    "id": 60,
+    "quantity": 1,
+    "productCode": "BUZ 947",
+    "brand": "Bosch",
+    "title": {
+      "en": "French Door Refrigerator",
+      "tr": "Fransız Kapı Buzdolabı",
+      "es": "Refrigerador puerta francesa"
+    },
+    "price": 2650,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Premium design with flexible storage.",
+      "tr": "Esnek depolama alanına sahip premium tasarım.",
+      "es": "Diseño premium con almacenamiento flexible."
+    },
+    "categoryId": 3,
+    "images": [
+      "/assets/imgs/buzdolabi.png",
+      "/assets/imgs/buzdolabi2.jpg",
+      "/assets/imgs/buzdolabi3.png"
+    ]
+  },
+  {
+    "id": 61,
+    "quantity": 1,
+    "productCode": "MATK 650",
+    "brand": "Okh",
+    "title": {
+      "en": "Hammer Drill",
+      "tr": "Darbeli Matkap",
+      "es": "Martillo de taladro"
+    },
+    "price": 2450,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Versatile drill with hammer function.",
+      "tr": "Darbeli fonksiyona sahip çok yönlü matkap.",
+      "es": "Taladro versátil con función de martillo."
+    },
+    "categoryId": 2,
+    "images": [
+      "/assets/imgs/matkap.png",
+      "/assets/imgs/matkap2.jpg",
+      "/assets/imgs/matkap3.jpg"
+    ]
+  },
+  {
+    "id": 62,
+    "quantity": 1,
+    "productCode": "PAR 137",
+    "brand": "Boss",
+    "title": {
+      "en": "Perfume Classic",
+      "tr": "Klasik Parfüm",
+      "es": "Perfume Classic"
+    },
+    "price": 2200,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Timeless scent for the distinguished individual.",
+      "tr": "Seçkin bireyler için zamansız koku.",
+      "es": "Fragancia atemporal para el individuo distinguido."
+    },
+    "categoryId": 1,
+    "images": [
+      "/assets/imgs/parfum.png",
+      "/assets/imgs/parfum2.jpg",
+      "/assets/imgs/parfum3.jpg"
+    ]
+  },
+  {
+    "id": 63,
+    "quantity": 1,
+    "productCode": "FRV 337",
+    "brand": "Fjallraven",
+    "title": {
+      "en": "Fjallraven Urban Backpack",
+      "tr": "Fjallraven Urban Çanta",
+      "es": "Fjallraven Urban Backpack"
+    },
+    "price": 119.95,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Sleek design for city exploration.",
+      "tr": "Şehir keşfi için şık tasarım.",
+      "es": "Diseño elegante para la exploración de la ciudad."
+    },
+    "categoryId": 9,
+    "images": [
+      "/assets/imgs/bagg.jpg",
+      "/assets/imgs/bagg2.jpg",
+      "/assets/imgs/bagg3.jpg"
+    ]
+  },
+  {
+    "id": 64,
+    "quantity": 1,
+    "productCode": "IPH 122",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 15 Pro",
+      "tr": "iPhone 15 Pro",
+      "es": "iPhone 15 Pro"
+    },
+    "price": 1950,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Titanium design with A17 Pro chip.",
+      "tr": "A17 Pro çip ile titanyum tasarım.",
+      "es": "Diseño de titanio con chip A17 Pro."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone12-red.png",
+      "/assets/imgs/iphone-12-green-select-2020.png",
+      "/assets/imgs/iphone12pro.jpg"
+    ]
+  },
+  {
+    "id": 65,
+    "quantity": 1,
+    "productCode": "IPH 123",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 13 Mini",
+      "tr": "iPhone 13 Mini",
+      "es": "iPhone 13 Mini"
+    },
+    "price": 1250,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Compact design with full features.",
+      "tr": "Tam donanımlı kompakt tasarım.",
+      "es": "Diseño compacto con características completas."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone11-green.png",
+      "/assets/imgs/iphone11-1.jpg",
+      "/assets/imgs/iphone11-2.png"
+    ]
+  },
+  {
+    "id": 66,
+    "quantity": 1,
+    "productCode": "IPA 117",
+    "brand": "Apple",
+    "title": {
+      "en": "iPad Pro 12.9",
+      "tr": "iPad Pro 12.9",
+      "es": "iPad Pro 12.9"
+    },
+    "price": 2499,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Largest iPad with XDR display.",
+      "tr": "XDR ekranlı en büyük iPad.",
+      "es": "El iPad más grande con pantalla XDR."
+    },
+    "categoryId": 6,
+    "images": [
+      "/assets/imgs/ipad.png",
+      "/assets/imgs/ipad11.jpg",
+      "/assets/imgs/ipad122.jpg"
+    ]
+  },
+  {
+    "id": 67,
+    "quantity": 1,
+    "productCode": "NK 337",
+    "brand": "Nike",
+    "title": {
+      "en": "Nike Casual Sneakers",
+      "tr": "Nike Günlük Spor Ayakkabı",
+      "es": "Zapatillas Casuales Nike"
+    },
+    "price": 590,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Stylish sneakers for everyday fashion.",
+      "tr": "Günlük moda için şık spor ayakkabılar.",
+      "es": "Zapatillas elegantes para la moda diaria."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/ayakkabi1.png",
+      "/assets/imgs/ayak3.png",
+      "/assets/imgs/ayak2.png"
+    ]
+  },
+  {
+    "id": 68,
+    "quantity": 1,
+    "productCode": "FKR 117",
+    "brand": "Fakir",
+    "title": {
+      "en": "Fakir Garment Steamer",
+      "tr": "Fakir Buharlı Düzleştirici",
+      "es": "Vaporizador de Prendas Fakir"
+    },
+    "price": 980,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Vertical steaming for delicate fabrics.",
+      "tr": "Hassas kumaşlar için dikey buhar.",
+      "es": "Vapor vertical para tejidos delicados."
+    },
+    "categoryId": 0,
+    "images": [
+      "/assets/imgs/utuf.png",
+      "/assets/imgs/utu.png",
+      "/assets/imgs/utu3.jpg"
+    ]
+  },
+  {
+    "id": 69,
+    "quantity": 1,
+    "productCode": "LNS 337",
+    "brand": "Lonsdale",
+    "title": {
+      "en": "Training Jump Rope",
+      "tr": "Antrenman İpi",
+      "es": "Cuerda de Saltar"
+    },
+    "price": 180,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Speed rope for cardio training.",
+      "tr": "Kardiyo antrenmanı için hız ipi.",
+      "es": "Cuerda de velocidad para entrenamiento cardiovascular."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/punch.png",
+      "/assets/imgs/kumtorbasi2.jpg",
+      "/assets/imgs/kumtorbasi3.jpg"
+    ]
+  },
+  {
+    "id": 70,
+    "quantity": 1,
+    "productCode": "DE 667",
+    "brand": "Decathlon",
+    "title": {
+      "en": "Beach Tent",
+      "tr": "Plaj Çadırı",
+      "es": "Tienda de Playa"
+    },
+    "price": 1450,
+    "isFreeCargo": true,
+    "description": {
+      "en": "UV protection for beach and outdoor events.",
+      "tr": "Plaj ve açık hava etkinlikleri için UV koruması.",
+      "es": "Protección UV para playa y eventos al aire libre."
+    },
+    "categoryId": 7,
+    "images": [
+      "/assets/imgs/cadir.png",
+      "/assets/imgs/cadir2.jpg",
+      "/assets/imgs/cadir3.jpeg"
+    ]
+  },
+  {
+    "id": 71,
+    "quantity": 1,
+    "productCode": "MD 337",
+    "brand": "Ikea",
+    "title": {
+      "en": "Side Table",
+      "tr": "Yan Sehpa",
+      "es": "Mesa Auxiliar"
+    },
+    "price": 450,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Compact table for beside your sofa.",
+      "tr": "Koltuğunuzun yanı için kompakt masa.",
+      "es": "Mesa compacta para al lado de tu sofá."
+    },
+    "categoryId": 4,
+    "images": [
+      "/assets/imgs/masa.png",
+      "/assets/imgs/masa2.jpg",
+      "/assets/imgs/masa3.jpg"
+    ]
+  },
+  {
+    "id": 72,
+    "quantity": 1,
+    "productCode": "BUZ 948",
+    "brand": "Bosch",
+    "title": {
+      "en": "Wine Cooler Refrigerator",
+      "tr": "Wine Cooler Buzdolabı",
+      "es": "Wine Cooler Refrigerator"
+    },
+    "price": 1850,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Temperature-controlled wine storage.",
+      "tr": "Sıcaklık kontrollü şarap saklama.",
+      "es": "Almacenamiento de vino con temperatura controlada."
+    },
+    "categoryId": 3,
+    "images": [
+      "/assets/imgs/buzdolabi.png",
+      "/assets/imgs/buzdolabi2.jpg",
+      "/assets/imgs/buzdolabi3.png"
+    ]
+  },
+  {
+    "id": 73,
+    "quantity": 1,
+    "productCode": "MATK 651",
+    "brand": "Okh",
+    "title": {
+      "en": "Drill Set with Bits",
+      "tr": "Uçlu Matkap Seti",
+      "es": "Conjunto de taladro con bits"
+    },
+    "price": 2750,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Complete kit with multiple drill bits.",
+      "tr": "Çoklu matkap uçları ile tam set.",
+      "es": "Kit completo con múltiples brocas."
+    },
+    "categoryId": 2,
+    "images": [
+      "/assets/imgs/matkap.png",
+      "/assets/imgs/matkap2.jpg",
+      "/assets/imgs/matkap3.jpg"
+    ]
+  },
+  {
+    "id": 74,
+    "quantity": 1,
+    "productCode": "PAR 138",
+    "brand": "Boss",
+    "title": {
+      "en": "Perfume Selection",
+      "tr": "Parfüm Seçimi",
+      "es": "Perfume Selection"
+    },
+    "price": 2850,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Exclusive limited edition fragrance.",
+      "tr": "Özel sınırlı üretim koku.",
+      "es": "Fragancia exclusiva de edición limitada."
+    },
+    "categoryId": 1,
+    "images": [
+      "/assets/imgs/parfum.png",
+      "/assets/imgs/parfum2.jpg",
+      "/assets/imgs/parfum3.jpg"
+    ]
+  },
+  {
+    "id": 75,
+    "quantity": 1,
+    "productCode": "FRV 338",
+    "brand": "Fjallraven",
+    "title": {
+      "en": "Fjallraven Hiking Backpack",
+      "tr": "Fjallraven Yürüyüş Çantası",
+      "es": "Mochila de Senderismo Fjallraven"
+    },
+    "price": 179.95,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Designed for serious hiking adventures.",
+      "tr": "Ciddi yürüyüş maceraları için tasarlandı.",
+      "es": "Diseñado para aventuras serias de senderismo."
+    },
+    "categoryId": 9,
+    "images": [
+      "/assets/imgs/bagg.jpg",
+      "/assets/imgs/bagg2.jpg",
+      "/assets/imgs/bagg3.jpg"
+    ]
+  },
+  {
+    "id": 76,
+    "quantity": 1,
+    "productCode": "IPH 124",
+    "brand": "Apple",
+    "title": {
+      "en": "iPhone 15 Plus",
+      "tr": "iPhone 15 Plus",
+      "es": "iPhone 15 Plus"
+    },
+    "price": 1850,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Larger screen with extended battery life.",
+      "tr": "Uzatılmış pil ömrü ile daha büyük ekran.",
+      "es": "Pantalla más grande con duración de batería extendida."
+    },
+    "categoryId": 5,
+    "images": [
+      "/assets/imgs/iphone12-red.png",
+      "/assets/imgs/iphone-12-green-select-2020.png",
+      "/assets/imgs/iphone12pro.jpg"
+    ]
+  },
+  {
+    "id": 77,
+    "quantity": 1,
+    "productCode": "NK 338",
+    "brand": "Nike",
+    "title": {
+      "en": "Nike Soccer Cleats",
+      "tr": "Nike Futbol Kramponu",
+      "es": "Tacos de Fútbol Nike"
+    },
+    "price": 890,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Professional grade cleats for field performance.",
+      "tr": "Saha performansı için profesyonel kramponlar.",
+      "es": "Tacos de grado profesional para rendimiento en campo."
+    },
+    "categoryId": 8,
+    "images": [
+      "/assets/imgs/ayakkabi1.png",
+      "/assets/imgs/ayak3.png",
+      "/assets/imgs/ayak2.png"
+    ]
+  },
+  {
+    "id": 78,
+    "quantity": 1,
+    "productCode": "DE 668",
+    "brand": "Decathlon",
+    "title": {
+      "en": "Dome Tent",
+      "tr": "Kubbeli Çadır",
+      "es": "Tienda Domo"
+    },
+    "price": 2350,
+    "isFreeCargo": true,
+    "description": {
+      "en": "Classic dome design with easy setup.",
+      "tr": "Kolay kurulumlu klasik kubbe tasarımı.",
+      "es": "Diseño de cúpula clásico con fácil instalación."
+    },
+    "categoryId": 7,
+    "images": [
+      "/assets/imgs/cadir.png",
+      "/assets/imgs/cadir2.jpg",
+      "/assets/imgs/cadir3.jpeg"
+    ]
+  },
+  {
+    "id": 79,
+    "quantity": 1,
+    "productCode": "MATK 652",
+    "brand": "Okh",
+    "title": {
+      "en": "Drill Press",
+      "tr": "Sütunlu Matkap",
+      "es": "Taladro de Columna"
+    },
+    "price": 3200,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Stationary drill for precision work.",
+      "tr": "Hassas işler için sabit matkap.",
+      "es": "Taladro estacionario para trabajos de precisión."
+    },
+    "categoryId": 2,
+    "images": [
+      "/assets/imgs/matkap.png",
+      "/assets/imgs/matkap2.jpg",
+      "/assets/imgs/matkap3.jpg"
+    ]
+  },
+  {
+    "id": 80,
+    "quantity": 1,
+    "productCode": "IPA 118",
+    "brand": "Apple",
+    "title": {
+      "en": "iPad 9th Gen",
+      "tr": "iPad 9th Gen",
+      "es": "iPad 9th Gen"
+    },
+    "price": 949,
+    "isFreeCargo": false,
+    "description": {
+      "en": "Budget-friendly iPad with essential features.",
+      "tr": "Temel özelliklere sahip bütçe dostu iPad.",
+      "es": "iPad económico con características esenciales."
+    },
+    "categoryId": 6,
+    "images": [
+      "/assets/imgs/ipad.png",
+      "/assets/imgs/ipad11.jpg",
+      "/assets/imgs/ipad122.jpg"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-8 text-gray-800">{{ 'CART.TITLE' | translate }}</h1>
+
+  <div *ngIf="cartService.cartItems().length === 0" class="text-center py-16 bg-white rounded-2xl border border-gray-100 shadow-sm">
+    <div class="mb-4">
+      <svg class="w-16 h-16 mx-auto text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+      </svg>
+    </div>
+    <p class="text-gray-500 text-lg mb-6">{{ 'CART.EMPTY_MESSAGE' | translate }}</p>
+    <a routerLink="/products" class="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition-colors">
+      {{ 'CART.START_SHOPPING' | translate }}
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </a>
+  </div>
+
+  <div *ngIf="cartService.cartItems().length > 0" class="flex flex-col lg:flex-row gap-8">
+    <!-- Cart Items -->
+    <div class="flex-grow space-y-4">
+      <div *ngFor="let item of cartService.cartItems()" class="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm flex gap-4 md:gap-6 items-center">
+        <!-- Image -->
+        <div class="w-20 h-20 md:w-32 md:h-32 bg-gray-50 rounded-xl flex-shrink-0 p-2">
+          <img [src]="item.product.images[0]" [alt]="getTitle(item.product)" class="w-full h-full object-contain mix-blend-multiply">
+        </div>
+
+        <!-- Info -->
+        <div class="flex-grow min-w-0">
+          <div class="text-xs text-blue-600 font-semibold mb-1">{{ item.product.brand }}</div>
+          <h3 class="text-gray-800 font-medium md:text-lg leading-tight mb-2 truncate">{{ getTitle(item.product) }}</h3>
+          <div class="md:hidden text-lg font-bold text-gray-900">{{ item.product.price | currency }}</div>
+          
+          <div class="hidden md:flex items-center gap-6 mt-2">
+             <div class="flex items-center gap-3">
+                <span class="text-sm text-gray-500">{{ 'CART.QTY' | translate }}</span>
+                <input 
+                  type="number" 
+                  min="1" 
+                  [value]="item.quantity" 
+                  (change)="updateQuantity(item.product.id, $event)"
+                  class="w-16 px-2 py-1 border border-gray-200 rounded-lg text-center"
+                >
+             </div>
+             <button (click)="removeItem(item.product.id)" class="text-red-500 hover:text-red-700 text-sm font-medium transition-colors">
+                {{ 'CART.REMOVE' | translate }}
+             </button>
+          </div>
+        </div>
+
+        <!-- Price & Actions (Desktop) -->
+        <div class="hidden md:block text-right">
+          <div class="text-xl font-bold text-gray-900 mb-1">
+            {{ item.product.price * item.quantity | currency }}
+          </div>
+          <div *ngIf="item.quantity > 1" class="text-sm text-gray-400">
+            {{ item.product.price | currency }} {{ 'CART.EACH' | translate }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="lg:w-96 flex-shrink-0">
+      <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm sticky top-24">
+        <h2 class="text-lg font-bold text-gray-800 mb-4">{{ 'CART.ORDER_SUMMARY' | translate }}</h2>
+        
+        <div class="space-y-3 mb-6">
+          <div class="flex justify-between text-gray-500">
+            <span>{{ 'CART.SUBTOTAL' | translate }} ({{ cartService.totalItems() }} {{ 'CART.ITEMS' | translate }})</span>
+            <span>{{ cartService.totalPrice() | currency }}</span>
+          </div>
+          <div class="flex justify-between text-gray-500">
+            <span>{{ 'CART.SHIPPING' | translate }}</span>
+            <span class="text-green-600 font-medium">{{ 'CART.FREE' | translate }}</span>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-100 pt-4 mb-6">
+          <div class="flex justify-between items-end">
+            <span class="text-gray-900 font-bold">{{ 'CART.TOTAL' | translate }}</span>
+            <span class="text-2xl font-bold text-blue-600">{{ cartService.totalPrice() | currency }}</span>
+          </div>
+        </div>
+
+        <button class="w-full bg-blue-600 text-white py-4 rounded-xl font-bold shadow-lg shadow-blue-200 hover:shadow-blue-300 hover:bg-blue-700 transition-all active:scale-95">
+          {{ 'CART.CHECKOUT' | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,79 @@
+{
+  "HEADER": {
+    "HOME": "Home",
+    "PRODUCTS": "Products",
+    "CATEGORIES": "Categories",
+    "ABOUT": "About",
+    "SIGN_IN": "Sign In",
+    "SIGN_OUT": "Sign Out",
+    "LOADING": "Loading...",
+    "SEARCH_PLACEHOLDER": "Search..."
+  },
+  "COMMON": {
+    "ADD_TO_CART": "Add to Cart",
+    "VIEW_DETAILS": "View Details",
+    "PRICE": "Price",
+    "FREE_SHIPPING": "Free Shipping"
+  },
+  "FOOTER": {
+    "QUICK_LINKS": "Quick Links",
+    "CONTACT": "Contact Us",
+    "RIGHTS_RESERVED": "All rights reserved",
+    "DESCRIPTION": "Your premium destination for quality products.",
+    "FOLLOW_US": "Follow Us"
+  },
+  "PRODUCTS_PAGE": {
+    "TITLE": "Discover Products",
+    "SUBTITLE": "Explore our curated collection of premium products, designed to elevate your lifestyle."
+  },
+  "AUTH": {
+    "LOGIN_TITLE": "Sign in to your account",
+    "LOGIN_BUTTON": "Sign in",
+    "REGISTER_TITLE": "Create your account",
+    "REGISTER_BUTTON": "Sign up",
+    "OR": "Or",
+    "CREATE_ACCOUNT": "create a new account",
+    "ALREADY_HAVE_ACCOUNT": "Already have an account?",
+    "EMAIL_LABEL": "Email address",
+    "EMAIL_PLACEHOLDER": "Email address",
+    "PASSWORD_LABEL": "Password",
+    "PASSWORD_PLACEHOLDER": "Password",
+    "PASSWORD_MIN_PLACEHOLDER": "Password (min 6 chars)",
+    "NAME_LABEL": "Full Name",
+    "NAME_PLACEHOLDER": "Full Name",
+    "INVALID_CREDENTIALS": "Invalid email or password.",
+    "EMAIL_EXISTS": "Email already exists."
+  },
+  "CART": {
+    "TITLE": "Shopping Cart",
+    "EMPTY_MESSAGE": "Your cart is empty",
+    "START_SHOPPING": "Start Shopping",
+    "QTY": "Qty:",
+    "REMOVE": "Remove",
+    "EACH": "each",
+    "ORDER_SUMMARY": "Order Summary",
+    "SUBTOTAL": "Subtotal",
+    "ITEMS": "items",
+    "SHIPPING": "Shipping",
+    "FREE": "Free",
+    "TOTAL": "Total",
+    "CHECKOUT": "Checkout"
+  },
+  "PRODUCT_DETAIL": {
+    "BACK_TO_PRODUCTS": "Back to Products",
+    "IN_STOCK": "In Stock"
+  },
+  "HOME": {
+    "HERO_TITLE": "Discover Amazing Products",
+    "HERO_SUBTITLE": "Shop the latest trends and find everything you need in one place. Quality products, unbeatable prices.",
+    "SHOP_NOW": "Shop Now",
+    "EXPLORE_CATEGORIES": "Explore Categories",
+    "FEATURED_PRODUCTS": "Featured Products",
+    "FEATURED_SUBTITLE": "Handpicked selection of our best products just for you",
+    "VIEW_ALL_PRODUCTS": "View All Products"
+  },
+  "NOTIFICATIONS": {
+    "CART_SUCCESS_TITLE": "Success!",
+    "CART_SUCCESS_MESSAGE": "{{productName}} has been added to your cart."
+  }
+}

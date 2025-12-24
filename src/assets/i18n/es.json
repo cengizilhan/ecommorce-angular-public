@@ -1,0 +1,79 @@
+{
+  "HEADER": {
+    "HOME": "Inicio",
+    "PRODUCTS": "Productos",
+    "CATEGORIES": "Categorías",
+    "ABOUT": "Nosotros",
+    "SIGN_IN": "Iniciar Sesión",
+    "SIGN_OUT": "Cerrar Sesión",
+    "LOADING": "Cargando...",
+    "SEARCH_PLACEHOLDER": "Buscar..."
+  },
+  "COMMON": {
+    "ADD_TO_CART": "Añadir al Carrito",
+    "VIEW_DETAILS": "Ver Detalles",
+    "PRICE": "Precio",
+    "FREE_SHIPPING": "Envío Gratis"
+  },
+  "FOOTER": {
+    "QUICK_LINKS": "Enlaces Rápidos",
+    "CONTACT": "Contacto",
+    "RIGHTS_RESERVED": "Todos los derechos reservados",
+    "DESCRIPTION": "Su destino premium para productos de calidad.",
+    "FOLLOW_US": "Síguenos"
+  },
+  "PRODUCTS_PAGE": {
+    "TITLE": "Descubrir Productos",
+    "SUBTITLE": "Explore nuestra colección curada de productos premium, diseñados para elevar su estilo de vida."
+  },
+  "AUTH": {
+    "LOGIN_TITLE": "Inicia sesión en tu cuenta",
+    "LOGIN_BUTTON": "Iniciar sesión",
+    "REGISTER_TITLE": "Crea tu cuenta",
+    "REGISTER_BUTTON": "Registrarse",
+    "OR": "O",
+    "CREATE_ACCOUNT": "crear una nueva cuenta",
+    "ALREADY_HAVE_ACCOUNT": "¿Ya tienes una cuenta?",
+    "EMAIL_LABEL": "Correo electrónico",
+    "EMAIL_PLACEHOLDER": "Correo electrónico",
+    "PASSWORD_LABEL": "Contraseña",
+    "PASSWORD_PLACEHOLDER": "Contraseña",
+    "PASSWORD_MIN_PLACEHOLDER": "Contraseña (mín 6 caracteres)",
+    "NAME_LABEL": "Nombre completo",
+    "NAME_PLACEHOLDER": "Nombre completo",
+    "INVALID_CREDENTIALS": "Correo electrónico o contraseña no válidos.",
+    "EMAIL_EXISTS": "El correo electrónico ya existe."
+  },
+  "CART": {
+    "TITLE": "Carrito de Compras",
+    "EMPTY_MESSAGE": "Tu carrito está vacío",
+    "START_SHOPPING": "Comenzar a Comprar",
+    "QTY": "Cant:",
+    "REMOVE": "Eliminar",
+    "EACH": "cada uno",
+    "ORDER_SUMMARY": "Resumen del Pedido",
+    "SUBTOTAL": "Subtotal",
+    "ITEMS": "artículos",
+    "SHIPPING": "Envío",
+    "FREE": "Gratis",
+    "TOTAL": "Total",
+    "CHECKOUT": "Pagar"
+  },
+  "PRODUCT_DETAIL": {
+    "BACK_TO_PRODUCTS": "Volver a Productos",
+    "IN_STOCK": "En Stock"
+  },
+  "HOME": {
+    "HERO_TITLE": "Descubre Productos Increíbles",
+    "HERO_SUBTITLE": "Compra las últimas tendencias y encuentra todo lo que necesitas en un solo lugar. Productos de calidad, precios inmejorables.",
+    "SHOP_NOW": "Comprar Ahora",
+    "EXPLORE_CATEGORIES": "Explorar Categorías",
+    "FEATURED_PRODUCTS": "Productos Destacados",
+    "FEATURED_SUBTITLE": "Selección cuidadosa de nuestros mejores productos para ti",
+    "VIEW_ALL_PRODUCTS": "Ver Todos los Productos"
+  },
+  "NOTIFICATIONS": {
+    "CART_SUCCESS_TITLE": "¡Éxito!",
+    "CART_SUCCESS_MESSAGE": "{{productName}} ha sido añadido a tu carrito."
+  }
+}
