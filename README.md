@@ -3,6 +3,8 @@
 
 A modern and responsive e-commerce application built with Angular 17.
 
+#medium tr: https://medium.com/@cngzilhn/angular%C4%B1n-mant%C4%B1%C4%9F%C4%B1n%C4%B1-bir-e-commerce-projesi-%C3%BCzerinden-okumak-8df93ac9407a
+
 ## Features
 
 - **Shopping Cart**: LocalStorage-based cart system
